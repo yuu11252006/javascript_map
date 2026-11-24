@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>秋葉原マップ</title>
+
+  <link rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>AKIHABARA MAP</h1>
+    <p>秋葉原の街を地図で探索しよう</p>
+  </header>
+
+  <main>
+    <div class="map-info">
+      <h2>秋葉原周辺マップ</h2>
+      <p>ピンをクリックするとスポットの情報が表示されます。</p>
+    </div>
+
+    <div id="map"></div>
+
+    <div class="description">
+      <h2>ABOUT MAP</h2>
+      <p>
+        秋葉原駅を中心に、周辺の観光スポットや
+        おすすめの場所を地図上に表示しています。
+        地図をクリックすると緯度と経度を確認できます。
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© AKIHABARA MAP</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
